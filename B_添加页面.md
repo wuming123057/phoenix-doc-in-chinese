@@ -126,7 +126,7 @@ end
 
 ```
 
-现在，我们先不管 `pipelines` 和 `scope` 部分（如果你好奇的话，可以阅读 [路由指北](https://mydearxym.gitbooks.io/phoenix-doc-in-chinese/content/C_%E8%B7%AF%E7%94%B1.html))
+现在，我们先不管 `pipelines` 和 `scope` 部分（如果你好奇的话，可以阅读 [路由指南](https://mydearxym.gitbooks.io/phoenix-doc-in-chinese/content/C_%E8%B7%AF%E7%94%B1.html))
 ）.
 
 让我们为 `/hello` 的 `GET` 请求创建一个路由吧, 对应的文件 --- `HelloPhoenix`文件稍后创建。
