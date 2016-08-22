@@ -39,9 +39,7 @@
 `Welcome to Phenix` 欢迎页面的,我们之后将重用这里的一些代码。根据惯例，在开发模式下，每一
 次新的请求到达，`web` 目录都会自动重新编译。
 
-我们应用所需的所有静态资源都在 `priv/static` 目录下（按照css,images或者js分类）, 编译过程
-会把 `priv/static` 里对应的 js, css 文件分别编译到 `web/static` 目录的 `app.js` / `app.css`。
-, 我们现在不会深入，只是留个印象。
+我们应用所需的所有静态资源都在 `priv/static` 目录下（按照css,images或者js分类）。我们把需要编译的静态文件放在`web/static` 目录，同时这些源文件将编译到 `priv/static` 目录里对应的 `app.js` 和 `app.css`文件。 我们现在不会深入，只是留个印象。
 
 ```console
 priv
